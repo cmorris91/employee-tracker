@@ -1,0 +1,31 @@
+[{
+    "department": "Engineering",
+    "employees": "Jesse Wong, Doyle Platt, Atif Singh, Chelsea Smith, Tahir Lang",
+    "budget": "400000",
+    "manager": "Emily Packer"
+},
+{
+    "department": "Legal",
+    "employees": "Alexis Hayword, Dean Mitchell, Ian Moore, Jamal Peters",
+    "budget": "390000",
+    "manager": "Richard Gilmore"
+},
+{
+    "department": "Finance",
+    "employees": "Stephanie Barboza, Jayben Lee, Louis Reiner, Tiffany Hatcher, Shawn Sanders",
+    "budget": "370000",
+    "manager": "Chris Guitierrez"
+},
+{
+    "department": "Design",
+    "employees": "Ronald Brewster, Rebecca Morris, Jeffrey Blane, Abrielle Sanders",
+    "budget": "300000",
+    "manager": "Sandra Somerville"
+},
+{
+    "department": "Sales",
+    "employees": "Michael Browning, Colleen Finazzo, Selena Mendez, John Dupree, Tim Morse",
+    "budget": "350000",
+    "manager": "Kim Yung"
+}
+]

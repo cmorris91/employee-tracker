@@ -1,0 +1,184 @@
+[{
+    "first_name": "Michael",
+    "last_name": "Browning",
+    "title": "Sales Lead",
+    "department": "Sales",
+    "salary": "65000",
+    "manager": "Kim Yung"
+},
+{
+    "first_name": "Colleen",
+    "last_name": "Finazzo",
+    "title": "Sales Rep",
+    "department": "Sales",
+    "salary": "55000",
+    "manager": "Kim Yung"
+},
+{
+    "first_name": "Selena",
+    "last_name": "Mendez",
+    "title": "Sales Rep",
+    "department": "Sales",
+    "salary": "55000",
+    "manager": "Kim Yung"
+},
+{
+    "first_name": "John",
+    "last_name": "Dupree",
+    "title": "Sales Rep",
+    "department": "Sales",
+    "salary": "55000",
+    "manager": "Kim Yung"
+},
+{
+    "first_name": "Tim",
+    "last_name": "Morse",
+    "title": "Sales Office Administator",
+    "department": "Sales",
+    "salary": "45000",
+    "manager": "Kim Yung"
+},
+{
+    "first_name": "Abrielle",
+    "last_name": "Sanders",
+    "title": "Design Lead",
+    "department": "Design",
+    "salary": "65000",
+    "manager": "Sandra Somerville"
+},
+{
+    "first_name": "Jeffrey",
+    "last_name": "Blane",
+    "title": "Designer",
+    "department": "Design",
+    "salary": "55000",
+    "manager": "Sandra Somerville"
+},
+{
+    "first_name": "Rebecca",
+    "last_name": "Morris",
+    "title": "Designer",
+    "department": "Design",
+    "salary": "55000",
+    "manager": "Sandra Somerville"
+},
+{
+    "first_name": "Ronald",
+    "last_name": "Brewster",
+    "title": "Design Administrator",
+    "department": "Design",
+    "salary": "45000",
+    "manager": "Sandra Somerville"
+},
+{
+    "first_name": "Shawn",
+    "last_name": "Sanders",
+    "title": "Finance Lead",
+    "department": "Finance",
+    "salary": "65000",
+    "manager": "Chris Guitierrez"
+},
+{
+    "first_name": "Tiffany",
+    "last_name": "Hatcher",
+    "title": "Finance Associate",
+    "department": "Finance",
+    "salary": "55000",
+    "manager": "Chris Guitierrez"
+},
+{
+    "first_name": "Lious",
+    "last_name": "Reiner",
+    "title": "Finance Associate",
+    "department": "Finance",
+    "salary": "55000",
+    "manager": "Chris Guitierrez"
+},
+{
+    "first_name": "Jayben",
+    "last_name": "Lee",
+    "title": "Finance Associate",
+    "department": "Finance",
+    "salary": "55000",
+    "manager": "Chris Guitierrez"
+},
+{
+    "first_name": "Staphanie",
+    "last_name": "Barboza",
+    "title": "Finance Administrator",
+    "department": "Finance",
+    "salary": "45000",
+    "manager": "Chris Guitierrez"
+},
+{
+    "first_name": "Alexis",
+    "last_name": "Hayword",
+    "title": "Legal Executive Lead",
+    "department": "Legal",
+    "salary": "85000",
+    "manager": "Richard Gilmore"
+},
+{
+    "first_name": "Dean",
+    "last_name": "Mitchell",
+    "title": "Legal Representative",
+    "department": "Legal",
+    "salary": "75000",
+    "manager": "Richard Gilmore"
+},
+{
+    "first_name": "Ian",
+    "last_name": "Moore",
+    "title": "Legal Representative",
+    "department": "Legal",
+    "salary": "75000",
+    "manager": "Richard Gilmore"
+},
+{
+    "first_name": "Jamal",
+    "last_name": "Peters",
+    "title": "Legal Administrator",
+    "department": "Legal",
+    "salary": "55000",
+    "manager": "Richard Gilmore"
+},
+{
+    "first_name": "Tahir",
+    "last_name": "Lang",
+    "title": "Engineer Team Lead",
+    "department": "Engineering",
+    "salary": "70000",
+    "manager": "Emily Packer"
+},
+{
+    "first_name": "Chelsea",
+    "last_name": "Smith",
+    "title": "Software Engineer",
+    "department": "Engineering",
+    "salary": "65000",
+    "manager": "Emily Packer"
+},
+{
+    "first_name": "Atif",
+    "last_name": "Singh",
+    "title": "Software Engineer",
+    "department": "Engineering",
+    "salary": "65000",
+    "manager": "Emily Packer"
+},
+{
+    "first_name": "Doyle",
+    "last_name": "Platt",
+    "title": "Software Engineer",
+    "department": "Engineering",
+    "salary": "65000",
+    "manager": "Emily Packer"
+},
+{
+    "first_name": "Jesse",
+    "last_name": "Wong",
+    "title": "Engineering Administrator",
+    "department": "Engineering",
+    "salary": "55000",
+    "manager": "Emily Packer"
+}]

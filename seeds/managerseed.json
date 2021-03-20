@@ -1,0 +1,40 @@
+[{
+    "first_name": "Emily",
+    "last_name": "Packer",
+    "department": "Engineering",
+    "salary": "75000"
+    
+},
+{
+    "first_name": "Richard",
+    "last_name": "Gilmore",
+    "title": "Legal Executive Manager",
+    "department": "Legal",
+    "salary": "95000"
+    
+}
+{
+    "first_name": "Chris",
+    "last_name": "Guitierrez",
+    "title": "Finance Manager",
+    "department": "Finance",
+    "salary": "85000"
+   
+},
+{
+    "first_name": "Sandra",
+    "last_name": "Somerville",
+    "title": "Design Manager",
+    "department": "Design",
+    "salary": "75000"
+   
+},
+{
+    "first_name": "Kim",
+    "last_name": "Yung",
+    "title": "Sales Manager",
+    "department": "Sales",
+    "salary": "75000"
+    
+}
+]
