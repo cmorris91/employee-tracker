@@ -5,32 +5,26 @@ CREATE DATABASE tracker_db;
 USE tracker_db;
 
 CREATE TABLE employees (
-  id INT NOT NULL AUTO_INCREMENT,
+  employee_id INT NOT NULL AUTO_INCREMENT,
   first_name VARCHAR(100) NOT NULL,
-  last_name INTEGER (100) NOT NULL,
-  title VARCHAR(100),
-  department VARCHAR(100) NOT NULL,
-  salary INT,
-  manager VARCHAR (100) NOT NULL,
-  PRIMARY KEY (id)
+  last_name INTEGER (10) NOT NULL,
+  manager VARCHAR (50) NOT NULL,
+  PRIMARY KEY (employee_id),
+  FOREIGN KEY (role_id) REFERENCES roles(role_id)
 );
 
-SELECT * FROM employees;
+
 
 CREATE TABLE departments (
-  id INT NOT NULL AUTO_INCREMENT,
-  department varchar (100) NOT NULL,
-  employees VARCHAR(100) NOT NULL,
-  budget INTEGER (100) NOT NULL,
-  manager VARCHAR(100) NOT NULL,
-  PRIMARY KEY (id)
+  department_id INT NOT NULL AUTO_INCREMENT,
+  departments VARCHAR(100) NOT NULL,
+  PRIMARY KEY (department_id)
 );
 
-CREATE TABLE managers (
-  id INT NOT NULL AUTO_INCREMENT,
-  first_name VARCHAR(100) NOT NULL,
-  last_name INTEGER (100) NOT NULL,
-  department VARCHAR(100) NOT NULL,
+CREATE TABLE roles (
+  role_id INT NOT NULL AUTO_INCREMENT,
+  title VARCHAR(30) NOT NULL,
   salary INT (20),
-  PRIMARY KEY (id)
+  PRIMARY KEY (role_id)
+  FOREIGN KEY (department_id) REFERENCES departments(department_id)
 );
