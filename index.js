@@ -35,8 +35,7 @@ const runSearch = () => {
         'Add department',
         'Add role',
         'Delete employee',
-        'Delete department',
-        'Delete role',
+        'Update employee role',
         'Exit'
       ],
     })
@@ -70,21 +69,14 @@ const runSearch = () => {
           deleteEmployee();
           break;
 
-        case 'Delete department':
-          deleteDepartment();
-          break;
-
-        case 'Delete role':
-          deleteRole();
+        case 'Update employee role':
+          updateEmployeeRole();
           break;
 
         case 'exit':
           exit();
           break;
 
-        default:
-          console.log(`Invalid action: ${answer.action}`);
-          break;
       }
     });
 };
@@ -171,6 +163,7 @@ const addDepartment = () => {
     })
   })
 };
+//function to add a role to database
 const addRole = () => {
   inquirer
   .prompt ([
@@ -199,3 +192,63 @@ const addRole = () => {
     })
   })
 };
+
+const deleteEmployee = () => {
+  inquirer
+  .prompt ([
+    {
+      name: 'employee',
+      type: 'input',
+      message: 'Which employee would you like to delete (enter employee ID)?'
+    },
+  ])
+  .then((answer) => {
+    const query = 'DELETE FROM employees WHERE ?';
+    connection.query(query, 
+      {
+        employee_id: answer.employee
+      },
+      (err, res) => {
+        if (err) throw err;
+      console.log('employee deleted!');
+      runSearch();
+      })
+  })
+};
+
+
+const updateEmployeeRole = () => {
+  inquirer
+  .prompt ([
+    {
+      name: 'employee',
+      type: 'input',
+      message: 'Which employee would you like to update (enter employee_ID)?'
+    },
+    {
+      name: 'role',
+      type: 'input',
+      message: 'Which role would you like to give them? (enter role_id)'
+    }
+  ])
+  .then((answer) => {
+    const query = 'UPDATE employees SET ? WHERE ?';
+    connection.query(query, 
+      [{
+        role_id: answer.role
+      },
+      {
+        employee_id: answer.employee
+      }],
+      (err, res) => {
+        if (err) throw err;
+      console.log('employee role updated!');
+      runSearch();
+      })
+  })
+};
+
+const exit = () => {
+  connection.end();
+}
+
