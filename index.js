@@ -162,11 +162,39 @@ const addDepartment = () => {
     const query = 'INSERT INTO departments SET ?';
     connection.query(query, 
       {
-        departments: answer.department;
+        departments: answer.department
       },
         (err, res) => {
         if (err) throw err;
       console.log('department added!');
+      runSearch();
+    })
+  })
+};
+const addRole = () => {
+  inquirer
+  .prompt ([
+    {
+      name: 'role',
+      type: 'input',
+      message: 'What role you want to add?'
+    },
+    {
+      name: 'salary',
+      type: 'input',
+      message: 'What is the salary?'
+    }
+  ])
+  .then((answer) => {
+    const query = 'INSERT INTO roles SET ?';
+    connection.query(query, 
+      {
+        title: answer.role,
+        salary: answer.salary
+      },
+        (err, res) => {
+        if (err) throw err;
+      console.log('role added!');
       runSearch();
     })
   })
